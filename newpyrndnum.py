@@ -41,7 +41,7 @@ def generaterandomnumbers(entropy, num_numbers):
         random_numbers.append(random_number)
 
     return random_numbers
-
+#usage
 if __name__ == "__main__":
     entropy_data = captureentropy()
     random_numbers = generaterandomnumbers(entropy_data, num_numbers=10)
